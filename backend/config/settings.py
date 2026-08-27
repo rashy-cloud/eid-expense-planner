@@ -144,7 +144,9 @@ STORAGES = {
     },
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://eid-expense-planner-frontend.onrender.com",
+]
 
 from datetime import timedelta
 
