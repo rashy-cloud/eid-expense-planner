@@ -146,7 +146,10 @@ STORAGES = {
 
 CORS_ALLOWED_ORIGINS = [
     "https://eid-expense-planner-frontend.onrender.com",
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
+
 
 from datetime import timedelta
 
